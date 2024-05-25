@@ -11,26 +11,37 @@ html, body {
     width: 100%;
 }
 
-body{
-    background-color: black;
-}
 
-#nav{
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    justify-content: center;
 }
 
-#part2{
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(29, 189, 189);
     display: flex;
-    gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
-h1{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 63, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
+#box{
+    height: 250px;
+    width: 250px;
+    background-color: crimson;
+}
